@@ -1536,3 +1536,55 @@ Dummy001
 [2023.11.27-07.45.10:294][929]LogStats:                    SendNewReport -  1.469 s
 [2023.11.27-07.45.10:294][930]LogStats:             FDebug::EnsureFailed -  1.520 s
 [2023.11.27-07.45.21:347][963]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:55.644 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 54862 files in 2895 folders with total size 11580 MiB.
+[2023.11.27-07.50.17:418][218]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2023.11.27-07.50.20:542][565]LogContentBrowser: Deferred new asset folder creation: 新建文件夹
+[2023.11.27-07.50.20:552][565]LogContentBrowser: Creating deferred item: 新建文件夹
+[2023.11.27-07.50.20:560][566]LogContentBrowser: Renaming the item being created (Deferred Item: 新建文件夹).
+[2023.11.27-07.50.27:491][392]LogContentBrowser: Attempting asset rename: 新建文件夹 -> Tutorial
+[2023.11.27-07.50.27:492][392]LogContentBrowser: End creating deferred item 新建文件夹
+[2023.11.27-07.50.34:717][888]LogAssetTools: Warning: Two factories registered with same priority : AvfFileMediaSourceFactory_0 and WmfFileMediaSourceFactory_0
+[2023.11.27-07.50.34:731][888]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../../Users/Admin/Desktop/长枪动画镜头参考.mp4)
+[2023.11.27-07.50.34:753][888]LogAutomationController: Ignoring very large delta of 3.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.11.27-07.50.45:183][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.11.27-07.50.47:096][ 17]LogSlate: Window '保存内容' being destroyed
+[2023.11.27-07.50.47:105][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.27-07.50.47:159][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial/长枪动画镜头参考" FILE="D:/MyProject/CameraStudy_Spear/Content/Tutorial/长枪动画镜头参考.uasset" SILENT=true
+[2023.11.27-07.50.47:160][ 17]LogSavePackage: Moving output files for package: /Game/Tutorial/长枪动画镜头参考
+[2023.11.27-07.50.47:160][ 17]LogSavePackage: Moving 'D:/MyProject/CameraStudy_Spear/Saved/长枪动画镜头参考7C76C50C415694979D9EB2AA7DBAA793.tmp' to 'D:/MyProject/CameraStudy_Spear/Content/Tutorial/长枪动画镜头参考.uasset'
+[2023.11.27-07.50.47:167][ 17]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 788 ms)
+[2023.11.27-07.50.47:168][ 17]AssetCheck: New page: 资产保存：长枪动画镜头参考
+[2023.11.27-07.50.47:168][ 17]LogContentValidation: Display: 正在验证/Script/MediaAssets.FileMediaSource /Game/Tutorial/长枪动画镜头参考.长枪动画镜头参考
+[2023.11.27-07.50.55:912][302]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/Tutorial/长枪动画镜头参考.长枪动画镜头参考
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: ================================================
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: RAM used: 9.28 KiB of 819.20 MiB budget. Usage: 0.00%
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Job execution time: average 0.33 s, max 0.33 s
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Job life time (pending + execution): average 0.40 s, max 0.40
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Shader code size: average 6.383 KiB, min 6.074 KiB, max 6.691 KiB
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.40 s
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Average processing rate: 5.02 jobs/sec
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Total thread time: 0.139 s
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Total thread preprocess time: 0.033 s
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Percentage time preprocessing: 23.86%
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Effective parallelization: 0.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 2
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 73.95% of total time (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 26.05% of total time (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2023.11.27-07.50.56:444][352]LogShaderCompilers: Display: ================================================
+[2023.11.27-07.52.48:841][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.11.27-07.52.49:831][252]LogSlate: Window 'Delete Assets' being destroyed
+[2023.11.27-07.52.49:846][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.27-07.52.49:852][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.11.27-07.52.49:856][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.11.27-07.53.07:688][267]LogSlate: Window '内容浏览器' being destroyed
+[2023.11.27-07.53.07:693][267]LogSlate: Window '内容浏览器' being destroyed
