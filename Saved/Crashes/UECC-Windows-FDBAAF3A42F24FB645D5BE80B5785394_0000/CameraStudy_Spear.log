@@ -1532,7 +1532,3 @@ Dummy001
 [2023.11.27-07.45.08:797][929]LogOutputDevice: Error: [Callstack] 0x00007ffd6e927614 KERNEL32.DLL!UnknownFunction []
 [2023.11.27-07.45.08:797][929]LogOutputDevice: Error: [Callstack] 0x00007ffd6eb826a1 ntdll.dll!UnknownFunction []
 [2023.11.27-07.45.08:797][929]LogOutputDevice: Error: 
-[2023.11.27-07.45.08:825][929]LogStats:                SubmitErrorReport -  0.000 s
-[2023.11.27-07.45.10:294][929]LogStats:                    SendNewReport -  1.469 s
-[2023.11.27-07.45.10:294][930]LogStats:             FDebug::EnsureFailed -  1.520 s
-[2023.11.27-07.45.21:347][963]LogDerivedDataCache: C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:55.644 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 54862 files in 2895 folders with total size 11580 MiB.
